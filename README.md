@@ -4,7 +4,7 @@ A modern, responsive React application for managing contacts with search functio
 
 ## 🚀 Live Demo
 
-[Deploy on Vercel](https://tria-contact-list.vercel.app) (Link will be available after deployment)
+https://contact-list-owmb.vercel.app/
 
 ## ✨ Features
 
@@ -24,41 +24,6 @@ A modern, responsive React application for managing contacts with search functio
 - **UI Avatars**: Dynamic avatar generation service
 - **Responsive Design**: Mobile-first approach
 
-## 📦 Installation & Setup
-
-### Prerequisites
-
-- Node.js (version 14 or higher)
-- npm or yarn package manager
-
-### Local Development
-
-1. **Clone the repository**
-   ```bash
-   git clone <repository-url>
-   cd tria-assignment
-   ```
-
-2. **Install dependencies**
-   ```bash
-   npm install
-   ```
-
-3. **Start the development server**
-   ```bash
-   npm start
-   ```
-
-4. **Open your browser**
-   Navigate to `http://localhost:3000` to view the application
-
-### Build for Production
-
-```bash
-npm run build
-```
-
-This creates an optimized production build in the `build` folder.
 
 ## 🏗️ Project Structure
 
@@ -135,32 +100,6 @@ The application is fully responsive with breakpoints at:
 - **Tablet**: 768px - 1024px (adaptive grid)
 - **Desktop**: > 1024px (multi-column grid)
 
-## 🚀 Deployment
-
-### Vercel Deployment (Recommended)
-
-1. **Connect to Vercel**
-   - Push your code to GitHub
-   - Connect your GitHub repository to Vercel
-   - Vercel will automatically detect it's a React app
-
-2. **Automatic Deployment**
-   - Every push to main branch triggers a new deployment
-   - Preview deployments for pull requests
-
-### Alternative Deployment Options
-
-- **Netlify**: Similar to Vercel, supports React apps out of the box
-- **GitHub Pages**: Free hosting for static sites
-- **AWS S3 + CloudFront**: For more control over hosting
-
-## 🧪 Testing
-
-The application includes:
-- Form validation testing
-- Responsive design testing
-- Cross-browser compatibility
-- Accessibility testing
 
 ## 📋 Assumptions & Design Decisions
 
@@ -182,21 +121,7 @@ The application includes:
 ### Error Handling
 - **Assumption**: Basic error states and loading indicators
 - **Reasoning**: Sufficient for demo purposes
-- **Real Implementation**: Would include comprehensive error boundaries
-
-## 🔮 Future Enhancements
-
-- **Backend Integration**: Connect to real API endpoints
-- **Data Persistence**: Local storage or database integration
-- **Advanced Search**: Search by email, phone, or tags
-- **Contact Categories**: Group contacts by categories
-- **Import/Export**: CSV import/export functionality
-- **Dark Mode**: Theme switching capability
-- **Offline Support**: Progressive Web App features
-
-## 📄 License
-
-This project is created for the Tria assignment and is for demonstration purposes.
+- **Real Implementation**: Would include comprehensive error boundary
 
 ## 👨‍💻 Developer Notes
 
