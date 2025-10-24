@@ -2,11 +2,11 @@
 
 A modern, responsive React application for managing contacts with search functionality and the ability to add new contacts.
 
-## 🚀 Live Demo
+## Live Demo
 
 https://contact-list-owmb.vercel.app/
 
-## ✨ Features
+## Features
 
 - **View Contact List**: Display all contacts in a beautiful card-based layout
 - **Search Functionality**: Real-time search to filter contacts by name
@@ -16,7 +16,7 @@ https://contact-list-owmb.vercel.app/
 - **Modern UI**: Clean, intuitive interface with smooth animations
 - **Loading States**: Proper loading indicators and error handling
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **React 18**: Modern React with hooks and functional components
 - **CSS3**: Custom styling with modern CSS features (Grid, Flexbox, Animations)
@@ -25,7 +25,7 @@ https://contact-list-owmb.vercel.app/
 - **Responsive Design**: Mobile-first approach
 
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 src/
@@ -48,7 +48,7 @@ src/
 └── index.css                  # Global styles and CSS reset
 ```
 
-## 🎨 Design Choices
+## Design Choices
 
 ### UI/UX Decisions
 
@@ -93,7 +93,7 @@ src/
 - Confirmation dialog for delete operations
 - Optimistic UI updates
 
-## 📱 Responsive Design
+## Responsive Design
 
 The application is fully responsive with breakpoints at:
 - **Mobile**: < 768px (single column layout)
@@ -101,7 +101,7 @@ The application is fully responsive with breakpoints at:
 - **Desktop**: > 1024px (multi-column grid)
 
 
-## 📋 Assumptions & Design Decisions
+## Assumptions & Design Decisions
 
 ### Data Management
 - **Assumption**: Contact data is stored in local state (simulated API)
@@ -123,7 +123,7 @@ The application is fully responsive with breakpoints at:
 - **Reasoning**: Sufficient for demo purposes
 - **Real Implementation**: Would include comprehensive error boundary
 
-## 👨‍💻 Developer Notes
+## Developer Notes
 
 - All components are functional components using React hooks
 - CSS is organized per component for better maintainability
@@ -133,4 +133,3 @@ The application is fully responsive with breakpoints at:
 
 ---
 
-**Built with ❤️ using React**
